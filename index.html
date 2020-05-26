@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+</html>
+</html>
   <head>
     <meta charset="utf-8">
     <title>Which is Better?</title>
@@ -37,6 +39,12 @@
     <p class="red-text">
       This is just a fun little page to see what your favorites are. You can choose which of the choices that you like best and then submit your answers.
     </p>
+    <p id="date"></p>
+    <script>
+      var d = new Date();
+      document.getElementById("date").innerHTML = d;
+      //w3schools.com https://www.w3schools.com/js/js_dates.asp
+    </script>
     <form>
       <label for "Burgers"><input type="radio" name="burgers-pizza" value="burgers" />Burgers</label>
       <p>
@@ -74,10 +82,23 @@
       <p>
 
       </p>
-      <button type="submit">Submit</button>
-      <p>
-        Thanks for your feedback!
-      </p>
+      <button type="submit"><a href = "file:///C:/Users/19495/OneDrive/Documents/index(1).html">Submit</a></button>
     </form>
+    <table class = "yellow-border">
+      <tbody>
+        <tr>
+          <th>Company</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td><a href = "https://www.fastfoodmenuprices.com/in-n-out-prices/">In-N-Out</a></td>
+          <td>$2.40</td>
+        </tr>
+        <tr>
+          <td><a href = "https://food.ndtv.com/restaurants/pizza-hut-price-and-menu-1793615">Pizza Hut</a></td>
+          <td>$4.79</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
